@@ -29,12 +29,41 @@ console.log()
 // 4. Crie uma variável inicializada com um valor de qualquer tipo e, em seguida, reatribua um novo valor a essa variável.
 // Imprima ambos os valores no console após atribuí-los.
 
-let estudante = 'Vitor'
-
+var estudante = true
+console.log(estudante)
+var estudante = 'Vitor'
+console.log(estudante)
 
 // 5. Declare uma variável usando var fora de um bloco de código (por exemplo, if) e outra dentro desse bloco.
 // Tente acessar essas variáveis dentro do bloc e fora dele utilizando console.log e analise os resultados. Faça o mesmo processo utilizando let e compare com os resultados anteriores.
 
+var Aluno = 'Vitor'
+
+if (1 > 0) {
+    var teste = 'Test'
+    console.log('=======VAR=======')
+}
+
+console.log(Aluno, teste)
+
+let Alunos = 'Vitor'
+
+if (1 > 0) {
+    let testes = 'Test'
+    console.log('========LET========')
+}
+// testes não é acessivel
+console.log(Alunos)
+
+
+
 // 6. Declare uma variável booleana que informa se está chovendo e utilize-a em uma estrutura condicional (if) para
 // exibir uma mensagem informando se é preciso levar um guarda-chuva ou não dependendo do valor da variável.
 
+const estaChovendo = false
+
+if (estaChovendo === true) {
+    console.log("É preciso levar guarda-chuva")
+} else {
+    console.log("Não é preciso levar guarda-chuva")
+}
