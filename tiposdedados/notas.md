@@ -17,3 +17,11 @@ Outros casos onde um valor não pode ser representado como número.
 Como verificar se um valor é NaN?
 Você pode utilizar os métodos Number.isNaN() ou isNaN():
 Number.isNaN(numero) // false
+
+- STRING
+o + é usado para concatenar strings alem de fazer contas
+
+É usado também o template string para concatenar as strings
+
+// JavaScript é uma linguagem dinamicamente tipada
+// parseInt, parseFloat, includes, toLowercase, Number
